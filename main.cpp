@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float temp;
+    cout << "...Program That Determines If A Temperature Is Below Or Above Freezing Point..." << endl;
+    cout << "\nEnter Your Temperature In Celcius: ";
+    cin >>temp;
+    if (temp < 0) {
+        cout << "\nTemperature Is Below Freezing Point" << endl;
+    }else if (temp == 0) {
+        cout << "\nTemperature Is At Freezing Point" << endl;
+    }else {
+        cout << "\nTemperature Is Above Freezing Point" << endl;
+    }
+    return 0;
+}
